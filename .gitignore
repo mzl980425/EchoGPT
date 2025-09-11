@@ -13,3 +13,5 @@ vendor/
 
 deno.lock
 .DS_Store
+.wrangler/
+.vite/
