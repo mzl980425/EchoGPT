@@ -32,3 +32,13 @@
    - Build command: `npx deno task build:cloudflare`
    - Deploy command: `cd ./dist/cloudflare && npx wrangler deploy`
 6. Click "Create and deploy" to deploy the project.
+
+### [Vercel](https://vercel.com/)
+
+1. Star and fork the repository.
+2. Go to [Vercel](https://vercel.com/new).
+3. Select "GitHub" as the deployment source and select the forked repository.
+4. Config the project:
+   - Framework Preset: `Other`
+   - Output Directory: `.`
+5. Click "Deploy" to deploy the project.
