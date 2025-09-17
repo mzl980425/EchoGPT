@@ -57,7 +57,7 @@
 ```bash
 git clone https://github.com/mzl980425/EchoGPT.git
 cd EchoGPT
-npx deno task dev
+deno task dev # If you don't have the Deno environment, run `npx deno task dev`
 
 # Open in browser: http://localhost:8000/
 ```
