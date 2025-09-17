@@ -42,3 +42,12 @@
    - Framework Preset: `Other`
    - Output Directory: `.`
 5. Click "Deploy" to deploy the project.
+
+### [Netlify](https://www.netlify.com/)
+
+1. Star and fork the repository.
+2. Go to [Netlify](https://app.netlify.com/start).
+3. Select "GitHub" as the deployment source and select the forked repository.
+4. Config the project:
+   - Functions directory: `api`
+5. Click "Deploy" to deploy the project.
