@@ -52,6 +52,16 @@
    - Functions directory: `api`
 5. Click "Deploy" to deploy the project.
 
+### [EdgeOne](https://edgeone.ai/)
+
+1. Star and fork the repository.
+2. Go to [EdgeOne Pages](https://console.tencentcloud.com/edgeone/pages).
+3. Select "GitHub" as the deployment source and select the forked repository.
+4. Configure the project:
+   - Build output directory: `./edge-functions`
+   - Install command: `npx deno task build:edgeone`
+5. Click "Start deployment" to deploy the project.
+
 ## Develop
 
 ```bash
